@@ -5,7 +5,8 @@
 body{
     width: 1440px;
     /* border: 1px solid black; */
-    margin:  50px 240px 0px 240px;
+    margin:  0px 240px 0px 240px;
+    font-family: 'Work Sans', sans-serif;
 }
 .primary{
     color: #FF900E;
@@ -21,12 +22,10 @@ hr{
     border: 0px;
     margin: 0px;
 }
-body{
-    font-family: 'Work Sans', sans-serif;
-}
 /* Header style */
 header{
     /* width: 1920px; */
+    margin-top: 50px;
     height: 1322px;
     background-color: rgba(255, 144, 14, 0.1);;
     /* border: 5px solid black; */
@@ -204,6 +203,7 @@ header{
     margin: 50px 0px 0px 0px;
 }
 .copyright{
+    background-color: #FF900E;
     text-align: center;
     margin-top: 130px;
     margin-bottom: 216px;
