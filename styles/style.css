@@ -208,3 +208,11 @@ header{
     margin-top: 130px;
     margin-bottom: 216px;
 }
+
+/*-------------------
+      hover        
+--------------------- */
+.content:hover img{
+    transform: scale(2) rotate(-75deg);
+    /* transform: rotate(-750deg); */   
+}
