@@ -4,7 +4,7 @@
 /* body styles */
 body{
     width: 1440px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin:  50px 240px 0px 240px;
 }
 .primary{
@@ -29,7 +29,7 @@ header{
     /* width: 1920px; */
     height: 1322px;
     background-color: rgba(255, 144, 14, 0.1);;
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
 .header-container-1{
     display: flex;
@@ -111,6 +111,17 @@ header{
     padding: 10px;
 }
 /* mid container styles */
+.features-head div{
+    display: flex;
+}
+.red-line{
+    background-color: #FF900E;
+    color: #FF900E;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 5px;
+    height: 90px;
+}
 .mid-container{
     display: flex;
 }
