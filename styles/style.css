@@ -243,4 +243,7 @@ header{
     .mid-container{
         flex-direction: column-reverse;
     }
+    .last-container-content {
+        flex-direction: column;
+    }
 }
