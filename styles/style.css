@@ -219,3 +219,28 @@ header{
     transform: scale(2) rotate(-75deg);
     /* transform: rotate(-750deg); */   
 }
+/*---------------------
+     mobile screen
+------------------------ */
+@media only screen and (max-width:688px) {
+    body{
+        width: 688px;
+        margin:  0px 100px 0px 100px;
+        /* border: 1px solid black; */
+    }
+    .banner{
+        width: 100%;
+    }
+    .header{
+        width: 688px;        
+    }
+    .quick-list{
+        flex-direction: column-reverse;
+    }
+    .quick-list-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .mid-container{
+        flex-direction: column-reverse;
+    }
+}
