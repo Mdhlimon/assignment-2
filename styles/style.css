@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@400;700&display=swap');
 
 /* body styles */
+body{
+    width: 1440px;
+    border: 1px solid black;
+    margin:  50px 240px 0px 240px;
+}
 .primary{
     color: #FF900E;
 }
@@ -21,25 +26,27 @@ body{
 }
 /* Header style */
 header{
-    width: 1920px;
+    /* width: 1920px; */
     height: 1322px;
     background-color: rgba(255, 144, 14, 0.1);;
     border: 5px solid black;
-}
-.header{
-    margin: 50px 240px;
 }
 .header-container-1{
     display: flex;
     justify-content: space-between;
 }
 .navigation-title h2{
+    justify-content: right;
     font-size: 45px;
     margin: 0px;
 }
 .navigation{
     display: flex;
     justify-content: space-between;
+    width: 30%;
+}
+.navigation div{
+    font-size: 18px;
 }
 .header-container-2{
     display: flex;
@@ -82,7 +89,7 @@ header{
 
 .quick-list{
     display: flex;
-    margin: 85px 300px 130px 300px;
+    margin: 85px;
 }
 .quick-text2{
     color: #131313;
@@ -106,17 +113,15 @@ header{
 /* mid container styles */
 .mid-container{
     display: flex;
-    margin: 130px 240px;
-    gap: 54px;
 }
 .features{
-    width: 585px;
+    width: 100%;
 }
 .feature{
     padding: 30px;
 }
 .mid-container-ima{
-    width: 800px;
+    width: 100%;
 }
 .img-info{
     display: flex;
@@ -138,10 +143,6 @@ header{
     font-size: 25px;
     margin: 0px;
 }
-.last-container-head{
-    /* margin-top: 130px; */
-    margin-left: 240px;
-}
 .last-container-head h1{
     font-size: 45px;
     margin: 0px;
@@ -153,25 +154,27 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 300px 180px 300px;
+    margin: 50px;
 }
 .content{
-    width: 241.83px;
-    height: 241.83px;
+    width: 169px;
+    height: 136.22px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
-    padding: 40px;
+    padding: 46px 36px 60px 36px;
 }
 .content h1{
     font-size: 45px;
+    margin: 0px;
 }
 .content p{
     font-size: 20px;
+    margin: 0px;
 }
-.
+
 /* Footer styles */
-footer{
+.footer{
     display: flex;
     flex-direction: column;
     text-align: center; 
@@ -187,9 +190,8 @@ footer{
     display: flex;
     /* justify-content: calc(4,1fr); */
     justify-content: space-between;
-    margin: 50px 290px 0px 290px;
+    margin: 50px 0px 0px 0px;
 }
-
 .copyright{
     text-align: center;
     margin-top: 130px;
